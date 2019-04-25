@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hello!</title>
+</head>
+
+<body>
+  <header class="mt-5">
+    <div class="container">
+      <h1 class="text-center">News</h1>
+      <form class="search">
+        <div class="row justify-content-center no-gutters">
+          <div class="col-sm-4">
+            <input type="text" class="search__keyword form-control" placeholder="keyword...">
+          </div>
+          <div class="col-sm-auto">
+            <select name="category" class="search__category form-control">]
+              <option value="" selected>Category</option>
+              <option value="business">Business</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="health">Health</option>
+              <option value="science">Science</option>
+              <option value="sports">Sports</option>
+              <option value="technology">Technology</option>
+            </select>
+          </div>
+          <div class="col-sm-auto">
+            <button type="submit" class="search__submit btn"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </header>
+  <div class="section">
+    <div class="container">
+      <div class="card-group news">
+
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
